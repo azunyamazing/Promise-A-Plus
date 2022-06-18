@@ -1,0 +1,30 @@
+{
+  "name": "promise-a-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./core",
+  "scripts": {
+    "start": "nodemon -e ts --exec ts-node ./core",
+    "test": "ts-node ./core "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2sheep/Promise-A-Plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h2sheep/Promise-A-Plus/issues"
+  },
+  "homepage": "https://github.com/h2sheep/Promise-A-Plus#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "promises-aplus-tests": "^2.1.2"
+  }
+}

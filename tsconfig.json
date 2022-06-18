@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "lib": ["ES2016", "DOM", "ES2015"],
+    "baseUrl": "./core",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "removeComments": true,
+    "preserveConstEnums": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
