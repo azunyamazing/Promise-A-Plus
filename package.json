@@ -2,7 +2,7 @@
   "name": "promise-a-plus",
   "version": "1.0.0",
   "description": "",
-  "main": "./core",
+  "main": "./src",
   "scripts": {
     "start": "nodemon -e ts --exec ts-node ./core",
     "test": "ts-node ./core "
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/h2sheep/Promise-A-Plus.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eriri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/h2sheep/Promise-A-Plus/issues"
